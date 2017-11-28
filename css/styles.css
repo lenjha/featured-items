@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
+img {
+  width: 100vw;
+  height: 100vw;
+}
+
+p {
+  padding: 0 5px;
+}
+
+.logo {
+  background: salmon;
+  height: 3vh;
+  width: 35vw;
+  margin-bottom: 2vh;
+}
+
+.trio {
+  background: tan;
+  height: 2vh;
+  width: 45vw;
+}
+
+.trio-1, .trio-2, .trio-3 {
+  background: purple;
+  height: 2vh;
+  width: 14vw;
+  margin-right: 1vw;
+  float: left;
+}
+
+.header {
+  background: lightyellow;
+  height: 10vh;
+  margin: 2.5vh 0;
+}
+
+.header-1 {
+  height: 4.5vh;
+  width: 95vw;
+  margin-bottom: 1vh;
+  background: orange;
+}
+
+.header-2 {
+  height: 4.5vh;
+  background: brown;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+  height: 80vh;
+  margin-top: 5vh;
+}
+
+.item-bar {
+  height: 1vh;
+  width: 33vw;
+  background: black;
+  margin-top: 3vh;
+}
+
+.item-1 {
+  background: lightgreen;
+
+}
+
+.item-2 {
+  background: lightblue;
+}
+
+.item-3 {
+  background: violet;
+}
+
+.item-4 {
+  background: pink;
+}

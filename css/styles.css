@@ -84,3 +84,46 @@ p {
 .item-4 {
   background: pink;
 }
+
+@media screen and (min-width: 750px) {
+
+  .logo {
+    float: left;
+    margin-right: 16vw;
+  }
+
+  .trio {
+    float: left;
+    margin-top: 2vh;
+    height: 1vh;
+    width: 27vw;
+    margin-bottom: 5vh;
+  }
+
+  .trio-1, .trio-2, .trio-3 {
+    background: purple;
+    height: 1vh;
+    width: 8vw;
+  }
+
+  .header {
+    clear: both;
+    margin: 5vh 3vw 5vh;
+  }
+
+  .header-1 {
+    width: 85vw;
+  }
+
+  .item-1, .item-2, .item-3, .item-4 {
+    float: left;
+    width: 48vw;
+    margin: 1vw;
+    height: 50vh;
+  }
+
+  img {
+    width: 48vw;
+    height: 48vw;
+  }
+}
